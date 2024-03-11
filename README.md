@@ -67,16 +67,16 @@ sns.countplot(data=dt,x="Survived")
 ```
 dt
 ```
-![Screenshot 2024-03-09 112728](https://github.com/Anusharonselva/EXNO2DS/assets/119405600/f0c27766-b897-4993-959d-6c1b7f24f751)
+![Screenshot 2024-03-09 111446](https://github.com/Anusharonselva/EXNO2DS/assets/119405600/f4d4558c-b01e-45aa-b0a9-15e5c6a8177f)
 ```
 dt.Pclass.unique()
 ```
-![Screenshot 2024-03-09 111446](https://github.com/Anusharonselva/EXNO2DS/assets/119405600/f4d4558c-b01e-45aa-b0a9-15e5c6a8177f)
+![Screenshot 2024-03-09 112614](https://github.com/Anusharonselva/EXNO2DS/assets/119405600/406e9fde-ecd5-408a-89de-aad0e3da762a)
 ```
 dt.rename(columns={'Sex':'Gender'},inplace=True)
 dt
 ```
-![Screenshot 2024-03-09 112614](https://github.com/Anusharonselva/EXNO2DS/assets/119405600/406e9fde-ecd5-408a-89de-aad0e3da762a)
+![Screenshot 2024-03-09 112728](https://github.com/Anusharonselva/EXNO2DS/assets/119405600/f0c27766-b897-4993-959d-6c1b7f24f751)
 
 ```
 sns.catplot(x="Gender",col="Survived",kind="count",data=dt,height=5,aspect=.7)
