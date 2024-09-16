@@ -1,4 +1,6 @@
 # EXNO2DS
+# NAME: GOKUL SHARAN R
+# REG NO: 212223040052
 # AIM:
       To perform Exploratory Data Analysis on the given data set.
       
